@@ -1,0 +1,318 @@
+body {
+    margin: 0%;
+    padding: 1%;
+    width: 70%;
+    background-color: #DDF7F8;
+}
+
+.ing {
+    margin-top: 15px;
+    width: 9%;
+   
+}
+
+#img {
+    display: inline;
+    max-width: 100px;
+    margin-top: -15px;
+    opacity: 7.4;
+    background: transparent;
+    border-radius: 72px;
+}
+
+.navigation {
+    position: relative;
+    top: -120px;
+    left: 290px;
+    margin-top: 40px;
+    font-family: 'Itim', cursive;
+    font-size: large;
+}
+
+.navigation li {
+    color: black;
+    padding: 2px;
+    display: inline-block;
+    font-size: 'Itim', cursive;
+
+}
+
+.navigation li a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 137%;
+
+}
+
+.navigation ul li a:hover {
+    color: rgb(6, 6, 6);
+
+    background-color: rgba(131, 127, 127, 0.9);
+    border-radius: 3px;
+    text-shadow: 5px 10px 15px;
+    text-decoration: underline;
+
+}
+
+#services {
+    font-family: 'Itim', cursive;
+    color: rgb(8, 8, 8);
+    width: 20%;
+    margin: 20px;
+    padding: 5px;
+    margin-left: 119px;
+    border-radius: 8px;
+}
+
+.link {
+    margin: 10px;
+    display: flex;
+    padding: 20px;
+    float: right;
+}
+
+.head {
+    text-align: center;
+    width: 140%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 15px 0px 15px;
+    border: 2px solid black;
+    background-color: #9AB8BA;
+    height: 300px;
+    border-radius: 6px;
+}
+
+#stuf {
+    font-size: 44px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+    #cnt{
+        margin-top: 2px;
+        font-size: 28px;
+        width: 15px;
+        padding: 7px 9px;
+    }
+    
+.from {
+    position: static;
+    background-image: url("beard.jpg ");
+    background-color: #9AB8BA;
+    opacity: 0.0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 80px 12px;
+    margin-left: 495px;
+    padding: 17px;
+    width: 44%;
+    height: 312px;
+    border: 1px solid rgb(22, 20, 20);
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.from {
+    background-image: url("img4brd.jpg ");
+    background-repeat: no-repeat;
+    background-size: 340px;
+    background-position: 45%;
+
+}
+
+h2 {
+    text-decoration: underline;
+    margin-top: 1px;
+    color: rgb(57, 69, 69);
+}
+
+.from input {
+    color: rgb(5, 5, 5);
+    text-align: center;
+    margin: 12px 7px;
+    padding: 6px 28px;
+    border: 1px solid rgb(17, 16, 16);
+    border-radius: 10px;
+}
+
+.from input[type="text"],
+textarea {
+    border: 1px solid rgb(46, 39, 39);
+    border-radius: 10px;
+}
+
+.from input:hover {
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(16, 17, 17);
+    background-color: rgb(237, 233, 183);
+    cursor: pointer;
+}
+
+.from:hover {
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 12px;
+    display: flex;
+    width: 140%;
+    height: 236px;
+    background-color: rgb(17, 16, 16);
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.item {
+    border: 1px solid rgb(35, 33, 33);
+    border-radius: 12px;
+    background-color: #9AB8BA;
+    width: 240px;
+    height: 200px;
+    margin: 11px;
+    padding: 7px;
+
+}
+
+.fot {
+    border: 2px solid red;
+    height: 544px;
+    width: 138%;
+    margin-top: 10px;
+    margin: 15px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+#fot-1 {
+    margin: 10px;
+    padding: 4px;
+    background-size: 20%;
+}
+
+.item h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+}
+
+.item ul li {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 28px;
+}
+
+.sale {
+    width: 50%;
+    margin: 43px;
+    line-height: 2;
+    font-size: 23px;
+}
+
+.sale i {
+    font-size: 60px;
+    margin: 10px;
+    padding: 8px;
+    text-shadow: 3px 6px 9px;
+}
+
+.sale h3 {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    margin: 10px;
+    padding: 12px;
+    color: rgb(119, 110, 110);
+
+}
+
+.btn:hover {
+    background-color: rgb(195, 240, 225);
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn:active {
+    background-color: #acb2b4;
+    box-shadow: 0 5px #2a2222;
+    transform: translateY(4px);     
+}
+
+.wach {
+    width: 50%;
+    margin: -476px;
+    margin-right: -350px;
+    margin-top: -176px;
+    line-height: 2;
+    float: right;
+  font-size: 23px;
+}
+
+.wach i {
+    font-size: 60px;
+    margin: 10px;
+    padding: 8px;
+    text-shadow: 3px 6px 9px;
+}
+
+.wach h3 {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.colps {
+    border: 2px solid black;
+    height: 389px;
+    margin-top: 500px;
+    width: 140%;
+    background-color: rgb(36, 33, 33);
+
+
+}
+
+.colps h2 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(240, 234, 234);
+    color: white;
+
+}
+
+#one {
+    width: 17%;
+    padding: 17px 83px;
+    margin: 10px;
+    height: 65%;
+
+}
+
+#two {
+    width: 19%;
+    padding: 17px 83px;
+    margin: 10px;
+}
+.colps p{
+    float: right;
+    width: 30%;
+    color: white;
+}
+.icon{
+    size: 20%;
+    color: white;
+}
+
+.from i{
+    margin-top: 5px;
+}
